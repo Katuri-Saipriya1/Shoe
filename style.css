@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:white;
+    
+}
+ .product{
+    border:4px solid black;
+    width: 800px;
+}
+.product-heading{
+    margin:5px;
+    padding: 5px;
+    background-color:grey;
+    text-align: center;
+}
+.picture{
+    margin:0 0 0 4px;
+    float:left;
+}
+.price{
+    margin: 8px 0 0 8px;
+    float: left;  
+}
+#shipping{
+    margin-left: 4px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+    color: brown;
+    
+}
+.product-des{
+    margin:8px 0 10px 10px;
+    
+    clear: both;
+    float: left; 
+}
+.info{
+    margin: 0 0 0 10px;
+}
+.Details{
+    margin:8px 0px 8px 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.list{
+    margin-left: 25px;
+}
+.list li{
+    margin-bottom: 8px;
+}
+.cart{
+    padding: 5px;
+    margin:8px 0px 0px 0px;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+.cart:hover{
+background-color: white;
+color: black;
+}
+.color{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.color1{
+    background-color:red;
+}
+.color2{
+    background-color: yellow;
+}
+.color3{
+    background-color: blue;
+}
+.color4{
+    background-color:darkgreen;
+    
+}
+.color5{
+    background-color:blueviolet;
+}
+.product-details{
+    width: 250px;
+    float: left;
+    margin: 20px 0px 0 10px;
+    
+}
+.product-info{
+    width: 250px;
+    float: right;
+    padding-top: 20px;
+    margin-right: 8px;
+    
+
+}
+
+
+
+ 
